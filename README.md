@@ -17,7 +17,11 @@ A convolutional neural network (CNN, or ConvNet) is a class of deep neural netwo
 Steps:
 
 Capture Photo - Using webcam or local image files.
+
 Convert to Gray - To make it easier to detect a face
+
 Detect the face - Using the Open Source haarcascade_frontalface_default.xml
+
 Cut and resize - Cut the image to capture the face
+
 Predict using the pre-trained model
